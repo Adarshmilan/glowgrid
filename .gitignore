@@ -1,0 +1,54 @@
+# ---------------------------------------------------------------
+# Glow Grid - files that must NOT go into git
+# ---------------------------------------------------------------
+
+# SECRETS - signing key and its passwords (never commit these!)
+keystore/
+*.keystore
+*.jks
+*.p12
+*.pem
+KEYSTORE_INFO.txt
+.godot/export_credentials.cfg
+.env
+.env.*
+
+# Godot editor cache / imported files (regenerated automatically)
+.godot/
+.import/
+*.translation
+*.tmp
+
+# Build outputs (APK / AAB and logs)
+build/
+*.apk
+*.aab
+*.idsig
+*.pck
+*.zip
+export_release.log
+
+# Android Gradle build template output (template itself is regenerated)
+android/
+*.gradle/
+local.properties
+
+# Godot export templates / SDK downloads that may land here by mistake
+*.tpz
+
+# Mono / C# (if ever used)
+.mono/
+data_*/
+mono_crash.*.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.code-workspace
