@@ -8,7 +8,7 @@ Made with Godot Engine 4.7. Free, offline, no ads, no sign-up.
 | Version | 1.0 (version code 1) |
 | Platform | Android 7.0 and above |
 | Google Play | Under process |
-| Package name | `com.glowgrid.puzzle` |
+| Package name | `com.hex.glowgrid` |
 
 ---
 
